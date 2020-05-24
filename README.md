@@ -1,2 +1,6 @@
 # Seqio
-Seqio  -  A C Package for Performing Sequence File I/O
+
+The Seqio package is an updated version of the SEQIO package written by James Knight and contains a set of C functions which can read and write biological sequence files formatted using various file formats. The package has support for reading gzip comressed files (requires zlib) and fastq file reading (sequence data only).
+
+
+

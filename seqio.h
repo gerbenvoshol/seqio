@@ -5,6 +5,7 @@
  * SEQIO.H  -  A C Package for Performing Sequence File I/O  (Version 1.1)
  *
  *   Copyright (c) 1996 by James Knight at Univ. of California, Davis
+ *   Copyright (c) 2019 by Gerben Voshol
  * 
  *   Permission to use, copy, modify, distribute and sell this software
  *   and its documentation is hereby granted, subject to the following
@@ -199,35 +200,6 @@ int seqferrpolicy(int pe);
 #endif
 
 #ifdef SEQIO_DEFINE
-/*
- * SEQIO.C  -  A C Package for Performing Sequence File I/O  (Version 1.2)
- *
- *   Copyright (c) 1996 by James Knight at Univ. of California, Davis
- * 
- *   Permission to use, copy, modify, distribute and sell this software
- *   and its documentation is hereby granted, subject to the following
- *   restrictions and understandings:
- * 
- *     1) Any copy of this software or any copy of software derived
- *        from it must include this copyright notice in full.
- * 
- *     2) All materials or software developed as a consequence of the
- *        use of this software or software derived from it must duly
- *        acknowledge such use, in accordance with the usual standards
- *        of acknowledging credit in academic research.
- * 
- *     3) The software may be used freely by anyone for any purpose,
- *        commercial or non-commercial.  That includes, but is not
- *        limited to, its incorporation into software sold for a profit
- *        or the development of commercial software derived from it.
- *  
- *     4) This software is provided AS IS with no warranties of any
- *        kind.  The author shall have no liability with respect to the
- *        infringement of copyrights, trade secrets or any patents by
- *        this software or any part thereof.  In no event will the
- *        author be liable for any lost revenue or profits or other
- *        special, indirect and consequential damages. 
- */
 
 #include <stdio.h>
 #include <stdlib.h>
